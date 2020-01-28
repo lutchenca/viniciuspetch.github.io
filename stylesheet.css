@@ -3,7 +3,7 @@
 */
 .section1 {    
     background-image: url("background1.jpg");
-    
+
     background-size: cover;
     padding: 100px 0 75px 0;
     min-height: 500px;
@@ -69,6 +69,7 @@
 }
 
 .section3 .item-elements {
+    color: #333333;
     font-size: 13px;
     text-align: center;
     margin-bottom: 15px;
