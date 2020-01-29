@@ -4,6 +4,7 @@
 .section1 {    
     background-image: url("background1.jpg");
     min-height: 100%;
+    box-shadow: inset 0px -30px 30px -30px rgba(0,0,0,1);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,10 +36,7 @@
 .section1 .item-inner:hover {
     background: #111111;
     color: #ffffff;
-    padding: 10px;    
-    min-height: 90px;
     box-shadow: 0px 5px 30px 10px rgba(0, 0, 0, 0.75);
-    border-radius: 1px;
 }
 
 .section1 .item-title {
@@ -63,9 +61,15 @@
 /*
 ##################################################
 */
-.section2 {    
-    background: #2c3e47;
+.section2 {
     box-shadow: inset 0px -30px 30px -30px rgba(0,0,0,1);
+    background-image: url("background2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    padding: 40px 0 0 0;
 }
 
 .section2 .section-title {
@@ -74,12 +78,21 @@
 }
 
 .section2 .item-inner {
-    background: #ffffff;
-    color: #222222;
+    background: #aaaaaa30;
+    color: #ffffff;
     padding: 20px;
-    box-shadow: 0px 8px 25px 3px rgba(0, 0, 0, 1);
-    border-radius: 0px 5px 20px 5px;
     min-height: 200px;
+    box-shadow: 0px 5px 25px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 0px 5px 20px 5px;    
+    border-radius: 1px;
+    transition: 0.2s;
+}
+
+.section2 .item-inner:hover {
+    background: #333333;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 30px 10px rgba(0, 0, 0, 0.75);
 }
 
 .section2 .item-title {
@@ -88,7 +101,7 @@
 }
 
 .section2 .item-elements {
-    color: #333333;
+    color: #eeeeee;
     font-size: 13px;
     text-align: center;
     margin-bottom: 15px;
