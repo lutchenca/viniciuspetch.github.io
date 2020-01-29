@@ -24,7 +24,7 @@
 }
 */
 .section1 .item-inner {
-    background: #22222240;
+    background: #22222250;
     color: #ffffff;
     padding: 10px;    
     min-height: 90px;
@@ -78,7 +78,7 @@
 }
 
 .section2 .item-inner {
-    background: #aaaaaa30;
+    background: #33333350;
     color: #ffffff;
     padding: 20px;
     min-height: 200px;
@@ -89,9 +89,8 @@
 }
 
 .section2 .item-inner:hover {
-    background: #333333;
+    background: #111111;
     color: #ffffff;
-    border-radius: 10px;
     box-shadow: 0px 5px 30px 10px rgba(0, 0, 0, 0.75);
 }
 
