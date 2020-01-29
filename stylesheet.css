@@ -168,4 +168,13 @@ body {
 html {
     height: 100%;
     margin: 0;
+    scroll-behavior: smooth;
+}
+
+.next-section-button {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 0 0 20px 0;
+    display: block;
 }
