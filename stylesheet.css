@@ -23,11 +23,21 @@
 }
 */
 .section1 .item-inner {
-    background: #22222280;
+    background: #22222240;
     color: #ffffff;
     padding: 10px;    
     min-height: 90px;
     box-shadow: 0px 5px 25px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 1px;
+    transition: 0.2s;
+}
+
+.section1 .item-inner:hover {
+    background: #111111;
+    color: #ffffff;
+    padding: 10px;    
+    min-height: 90px;
+    box-shadow: 0px 5px 30px 10px rgba(0, 0, 0, 0.75);
     border-radius: 1px;
 }
 
