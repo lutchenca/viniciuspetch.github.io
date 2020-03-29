@@ -78,7 +78,7 @@
 }
 
 .section2 .item-inner {
-    background: #000000bb;
+    background: #000000ee;
     color: #ffffff;
     padding: 20px;
     min-height: 200px;
@@ -89,9 +89,9 @@
 }
 
 .section2 .item-inner:hover {
-    background: #222222;
+    background: #000000;
     color: #ffffff;
-    box-shadow: 0px 5px 30px 10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 5px 30px 10px rgba(0, 0, 0, 1);
 }
 
 .section2 .item-title {
@@ -147,7 +147,7 @@
 ##################################################
 */
 .section-inner{
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
     padding: 20px 0 50px 0;
 }
